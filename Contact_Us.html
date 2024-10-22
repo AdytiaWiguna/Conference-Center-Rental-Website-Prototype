@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Us - Jockey's Conference Center</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/logo_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href=".././styles/Contact_Us.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../scripts/validation.js"></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="../assets/logo.png" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="../index/Home.html">Home</a></li>
+                <li><a href="../index/Events.html">Events</a></li>
+                <li><a href="../index/Price_List.html">Price List</a></li>
+                <li><a href="../index/About_Us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="mainContainer">
+        <div class="events">
+            <h2>Contact Us</h2>
+            <hr>
+        </div>
+        <form id="contactForm" action="#" method="get" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+        
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+        
+            <label for="contactMethod">Preferred Contact Method:</label><br>
+            <input type="checkbox" id="contactMethodPhone" name="contactMethodPhone" value="phone">
+            <label for="contactMethodPhone">Phone</label><br>
+            <input type="checkbox" id="contactMethodEmail" name="contactMethodEmail" value="email">
+            <label for="contactMethodEmail">Email</label><br>
+        
+            <input type="submit" value="Submit">
+        </form>        
+    </div>
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerBottom">
+                <p>CopyRight &copy;2023; Designed by<span class="designer">Adytia Wiguna Gunawan</span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+<style>
+form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFF;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #884a39;
+    background-color: #FFF;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #884a39;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #623727;
+}
+</style>
+</html>

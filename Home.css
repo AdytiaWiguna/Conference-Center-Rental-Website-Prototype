@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header li, a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #884a39;
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    top: 0%;
+    position: sticky;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #D7C0AE;
+    box-shadow: 1px 2px 3px;
+}
+
+header .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    height: 50%;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #EEE3CB;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #D7C0AE;
+    box-shadow: 5px 5px 5px 15px;
+}
+
+.footerContainer {
+    padding: 50px 0;
+    width: 80%;
+    margin: auto;
+    background-color: #D7C0AE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    background-color: #D7C0AE;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #EEE2DE;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: #D7C0AE;
+    background-color: #EEE2DE;
+}
+
+.socialIcons a:hover {
+    background-color:#D7C0AE;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color:#884a39;
+    background-color: #D7C0AE;
+    transition: 0.5s;
+}
+
+.footerBottom {
+    background-color: #D7C0AE;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: #884a39;
+    background-color: #D7C0AE;
+    text-align: center;
+}
+
+.designer {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #D7C0AE;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+.mainContainer {
+    background-image: url(./../assets/home_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainText {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.mainText h1 {
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0, 0);
+    font-size: 64px;
+}
+
+.mainText p {
+    width: 100%;
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 32px;
+    background-color: rgb(0, 0, 0, 0);
+}
+
+.mainText a {
+    padding: 9px 0;
+    color: white;
+    background-color: #EEE3CB;
+    font-size: 42px;
+    border-radius: 45px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 9px 25px;
+    color: black;
+    background-color: #EEE3CB;
+    font-size: 42px;
+    border-radius: 45px;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: #967E76;
+    transition: 0.2s;
+}
+
+.events .container{
+    width: 80%;
+    margin: auto;
+}
+
+.events h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.events p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 10px;
+    letter-spacing: 5px;
+}
+
+.events h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.events h5{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 35px;
+}
+
+.expo1{
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    color: black;
+    text-align: justify;
+}
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: black;
+    border: none;
+    height: 4px;
+    width: 100%;
+}
+
+.expo1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.expo1 img{
+    width: 389px;
+    height: 292px;
+    border-radius: 5px;
+}
+
+.expo2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.expo2 img{
+    width: 389px;
+    height: 292px;
+    border-radius: 5px;
+}
+
+.expo3{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.expo3 img{
+    width: 389px;
+    height: 292px;
+    border-radius: 5px;
+}
+
+.card-btn {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #3363ff;
+    background-color: #d8e0fd;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    float: left;
+}
+
+.card-btn span {
+    background-color: #d8e0fd;
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+
+.card-btn:hover, .card-btn:active {
+    background-color: #c2cffc;
+}
+
+.card-btn:hover span, .card-btn:active span {
+    margin-left: 1.5rem;
+    background-color: #c2cffc;
+}
+
+@media screen and (max-width: 800px) {
+    header li, a {
+        font-size: 2vw;
+    }
+    
+    header {
+        padding: 2.5vw 0;
+    }
+    
+    .logo {
+        width: 25vw;
+    }
+    
+    .nav_links li {
+        padding: 0px 2.5vw;
+    }
+    
+    .footerContainer {
+        padding: 6.25vw 0;
+        gap: 1.25vw;
+    }
+    
+    .socialIcons a {
+        padding: 1.25vw;
+    }
+    
+    .socialIcons a i {
+        font-size: 2vw;
+    }
+    
+    .designer {
+        margin: 0px 0.625vw;
+    }
+    
+    .mainContainer {
+        height: 100vw;
+    }
+    
+    .mainText {
+        padding: 1.25vw;
+    }
+    
+    .mainText h1 {
+        font-size: 8vw;
+    }
+    
+    .mainText p {
+        font-size: 4vw;
+    }
+    
+    .mainText a {
+        padding: 1.125vw 0;
+        font-size: 5.25vw;
+    }
+    
+    button {
+        padding: 1.125vw 3.125vw;
+        font-size: 5.25vw;
+    }
+
+    .events h2{
+        font-size: 6vw;
+        margin-top: 8.75vw;
+        margin-bottom: 8.75vw;
+    }
+    
+    .events p{
+        font-size: 2.125vw;
+        padding-top: 1.25vw
+    }
+    
+    .events h4{
+        font-size: 5vw;
+    }
+    
+    .events h5{
+        font-size: 3vw;
+        margin-bottom: 44.5vw;
+    }
+
+    hr{
+        margin-top: 6.25vw;
+        margin-bottom: 6.25vw;
+        height: 0.5vw
+    }
+    
+    .expo1{
+        gap: 3.75vw;
+    }
+    
+    .expo1 img{
+        width: 48.625vw;
+        height: 36.5vw;
+        border-radius: 0.625vw;
+    }
+    
+    .expo2{
+        gap: 3.75vw;
+    }
+    
+    .expo2 img{
+        width: 48.625vw;
+        height: 36.5vw;
+        border-radius: 0.625vw;
+    }
+    
+    .expo3{
+        gap: 3.75vw;
+    }
+    
+    .expo3 img{
+        width: 48.625vw;
+        height: 36.5vw;
+        border-radius: 0.625vw;
+    }
+    
+    .card-btn {
+        padding: 1vw;
+        font-size: 1.666vw;;
+    }
+    
+    .card-btn span {
+        margin-left: 0.833vw;
+    }
+
+    .card-btn:hover span, .card-btn:active span {
+        margin-left: 1.3vw;
+    }
+       
+}
